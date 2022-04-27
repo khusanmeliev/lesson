@@ -129,24 +129,8 @@
 
 // --------------------------DUPLICATE ---------------
 
-// const duplicateNum = (arr) => {
-//   const result = [...new Set(arr)];
-
-//   return result;
-// };
-// console.log(duplicateNum([1, 1, 2, 3, 5]));
-
-
-
-const checkArmstrong = num => {
-    let toString = num.toString().split('').map(Number)
-    let result = toString.map((a) => a * a * a)
-        .reduce((a, b) => a + b)
-    if (num == result) {
-        return true
-    }
-    else {
-        false
-    }
-}
-console.log(checkArmstrong(153))
+const duplicateNum = (arr) => {
+  const result = [...new Set(arr)];
+  return result;
+};
+console.log(duplicateNum([1, 2, 2, 3]));
