@@ -137,4 +137,3 @@
 // console.log(person);
 // console.log(person2);
 
-// day3
