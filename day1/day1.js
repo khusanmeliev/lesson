@@ -52,5 +52,3 @@
 //   return numbers;
 // };
 // console.log(sumOfNums([21, 43, 2, 5, 6]));
-
-// yeap this is day1

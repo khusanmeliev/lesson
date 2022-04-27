@@ -17,8 +17,6 @@
 
 // ------------------------------get random item-------------------
 
-
-
 // const nums = [1, 2, 3, 82, 93, 27, 37, 453, 83];
 
 // const random = Math.floor(Math.random() * nums.length);
@@ -124,3 +122,5 @@
 // ];
 
 // console.log(extractValue(value, "a"));
+
+// added day4
