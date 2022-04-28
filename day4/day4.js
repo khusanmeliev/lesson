@@ -123,5 +123,3 @@
 
 // console.log(extractValue(value, "a"));
 
-// day4
-
